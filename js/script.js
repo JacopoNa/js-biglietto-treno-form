@@ -45,3 +45,21 @@ ticketButton.addEventListener ('click',
         document.querySelector('.your-ticket').classList.add('active')
     }
 )
+
+// cancel button
+const cancelButton = document.getElementById('cancel-ticket')
+
+// click on cancel button
+cancelButton.addEventListener ('click',
+    function() {
+        document.querySelector('.your-ticket').classList.remove('active')
+
+        document.getElementById('user-name').value = ''
+
+        document.getElementById('user-km').value = ''
+
+        document.getElementById('user-age').value = 'maggiorenne'
+
+    }
+
+)
