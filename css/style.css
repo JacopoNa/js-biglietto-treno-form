@@ -2,9 +2,9 @@
     padding: 20px;
 }
 
-/* .your-ticket {
+.your-ticket {
     display: none;
-} */
+}
 
 .your-ticket.active {
     display: block;

@@ -41,5 +41,7 @@ ticketButton.addEventListener ('click',
         document.getElementById('ticket-code').innerHTML = Math.floor(Math.random() * 10000)
 
         document.getElementById('ticket-cost').innerHTML = finalPrice.toFixed(2) + ' €'
+
+        document.querySelector('.your-ticket').classList.add('active')
     }
 )
