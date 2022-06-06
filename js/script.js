@@ -34,6 +34,8 @@ ticketButton.addEventListener ('click',
             typeOffer = 'Biglietto over 65'
         } 
 
+        document.querySelector('h2.title').classList.add('active')
+
         document.getElementById('ticket-offer').innerHTML = typeOffer
 
         document.getElementById('ticket-carriage').innerHTML = Math.floor(Math.random() * 100)
@@ -43,6 +45,7 @@ ticketButton.addEventListener ('click',
         document.getElementById('ticket-cost').innerHTML = finalPrice.toFixed(2) + ' €'
 
         document.querySelector('.your-ticket').classList.add('active')
+
     }
 )
 
@@ -59,6 +62,8 @@ cancelButton.addEventListener ('click',
         document.getElementById('user-km').value = ''
 
         document.getElementById('user-age').value = 'maggiorenne'
+
+        document.querySelector('h2.title').classList.remove('active')
 
     }
 

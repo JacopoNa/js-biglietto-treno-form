@@ -1,11 +1,106 @@
+body {
+    background-color: #b91450;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.user-form {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form-top {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
 .form-item {
-    padding: 20px;
+    color: #b91450;
+}
+
+input {
+    border: 1px solid #b91450;
+    border-radius: 5px;
+}
+
+select {
+    border: 1px solid #b91450;
+    border-radius: 5px;
+}
+
+label {
+    padding-bottom: 10px;
+}
+
+.form-item.ms-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-bottom {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.ms-btn {
+    padding: 5px;
+    margin: 0 15px;
+    background-color: #cccccc;
+    border-radius: 5px;
+    color: #b91450;
+    border: 1px solid #b91450;
+}
+
+h2.title {
+    display: none;
+}
+
+h2.title.active {
+    display: block;
 }
 
 .your-ticket {
     display: none;
+    background-color: white;
+    padding: 20px;
 }
 
 .your-ticket.active {
     display: block;
+}
+
+.user-data {
+    border: 2px solid grey;
+}
+
+.ticket-text {
+    padding-top: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.ticket-text span {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.ms-card {
+    height: 100%;
+    background-color: grey;
+}
+
+.ms-card span {
+    padding-top: 0;
+    font-weight: bold;
 }
