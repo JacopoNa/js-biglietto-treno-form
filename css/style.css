@@ -1,0 +1,11 @@
+.form-item {
+    padding: 20px;
+}
+
+/* .your-ticket {
+    display: none;
+} */
+
+.your-ticket.active {
+    display: block;
+}
